@@ -11,6 +11,7 @@ pip install -e .
 cd ~
 
 git clone https://github.com/mcrl/Thunder-KoNUBench.git
+cd Thunder-KoNUBench
 ~~~
 
 ### Add Tasks to lm-eval-harness
