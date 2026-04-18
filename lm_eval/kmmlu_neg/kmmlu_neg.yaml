@@ -1,0 +1,15 @@
+task: kmmlu_neg
+dataset_path: /root/KoNUBench/dataset/kmmlu_neg
+output_type: multiple_choice
+test_split: test
+fewshot_split: null
+doc_to_text: "{{question.strip()}}\nA. {{A}}\nB. {{B}}\n정답："
+doc_to_choice: ["A", "B"]
+doc_to_target: "{{answer}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true  
