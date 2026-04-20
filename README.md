@@ -1,5 +1,5 @@
 # Thunder-KoNUBench
-This repository contains the code for the paper "Thunder-KoNUBench: A corpus-aligned benchmark for evaluating Korean negation understanding in LLMs". Thunder-KoNUBench dataset is also publicly available at <https://huggingface.co/datasets/thunder-research-group/SNU_Thunder-KoNUBench>
+This repository contains the code for the paper "Thunder-KoNUBench: A corpus-aligned benchmark for Korean Negation Understanding". Thunder-KoNUBench dataset is also publicly available at <https://huggingface.co/datasets/thunder-research-group/SNU_Thunder-KoNUBench>
 
 ## Install & SetUp
 ~~~bash
