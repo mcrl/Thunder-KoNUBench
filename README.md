@@ -47,7 +47,7 @@ Thunder-KoNUBench also provides training data for fine-tuning models on negation
   --master_addr=$MASTER_ADDR \
   --node_rank=$NODE_RANK \
   --master_port=8008 \
-  /root/KoNUBench/sft/main.py \
+  sft/main.py \
     --model {Model_Name} \
     --global_batch 128 \
     --micro_batch 16 \
