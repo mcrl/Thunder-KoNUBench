@@ -35,7 +35,8 @@ lm_eval \
 ### Error Analysis
 For error analysis after evalation, use the following command:
 ~~~bash
-python analyze.py
+# Specify the setting to analyze (baseline or sft)
+python analyze.py baseline
 ~~~
 
 ### Supervised-Fine-Tuning
